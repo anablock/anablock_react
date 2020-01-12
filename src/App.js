@@ -5,6 +5,8 @@ import { Navbar, Jumbotron, Button, Row } from 'react-bootstrap';
 import Header from './components/Navigation/Toolbar/Header';
 import Landing from './components/pages/Landing';
 import About from './components/pages/About';
+import Services from './components/services/Services';
+import Chatbot from './components/chatbot/Chatbot';
 
 function App() {
   return (
