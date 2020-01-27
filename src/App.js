@@ -7,15 +7,20 @@ import Landing from './components/pages/Landing';
 import About from './components/pages/About';
 import Services from './components/services/Services';
 import Chatbot from './components/chatbot/Chatbot';
+import Footer from './components/Navigation/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-        <div>
-          <h1>
-            Thank you for visiting <code>Anablock.com</code>
-          </h1>
-        </div>
+    <div>
+        <BrowserRouter>
+          <div className="container">
+            <Header />
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/services" component={Services} />
+            <Footer />
+          </div>
+        </BrowserRouter>
     </div>
   );
 }

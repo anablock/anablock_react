@@ -79,3 +79,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * https://app.getcodeflow.com/github/VukDukic/VuchinaApp
 * https://materializecss.com/
 * https://www.npmjs.com/package/react-materialize
+
+
+        <nav>
+            <div className = "nav-wrapper">
+                <Link to={'/'} className="brand-logo">Anablock</Link>
+                <div id="" className="right hide-on-med-and-down">
+                    <li><Link to={'/services'} className="brand-logo">Services</Link></li>
+                    <li><Link to={'/about'} className="brand-logo">About US</Link></li>
+                </div>
+            </div>
+        </nav>
